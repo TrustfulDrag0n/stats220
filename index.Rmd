@@ -1,0 +1,43 @@
+---
+title: "Assignment 1"
+subtitle: "STATS 220 Semester One 2022"
+author: "Ryusei Curtis"
+date: '2022-03-21'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+```{css, echo=FALSE}
+p {
+  font-size: 32px;
+}
+h2 {color= green;
+}
+```
+
+<h2>GitHub repository information</h2>
+https://github.com/TrustfulDrag0n/stats220
+<p>Contains my projects that I have made during the course of stats220</p>
+
+<h2>Animated GIF creation</h2>
+```{r animation, include=TRUE}
+library(magick)
+#images of cats
+image1 <- image_read("https://imgur.com/qFdSuBM.jpg") %>%   image_scale(250)
+image2 <- image_read("https://imgur.com/Wak7JI8.png") %>%   image_scale(250)
+image3 <- image_read("https://imgur.com/9YKRtPC.png") %>%   image_scale(250)
+image4 <- image_read("https://imgur.com/Gz9LGx8.png") %>%   image_scale(250)
+# combining the frames
+frames <- c(image1,image2,image3,image4)
+# playing the animation
+image_animate(frames,fps = 1)
+```
+
+<h2>Learning reflection</h2>
+<ul> I learnt that data can be displayed in many different ways. Gathering data like hit songs from birth-dates to compile data.</ul>
+
+<ul> Im quite curious about the dynamic reporting systems and would like to read more into it.</ul>
