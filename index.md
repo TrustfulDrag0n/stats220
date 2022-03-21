@@ -1,4 +1,4 @@
-**#Assignment 1#**
+#**Assignment 1**#
 
 The meme I have created for assignment 1 is about the new game *"Elden Ring"*
 that came out **Feb 25** last month. The *"No maidens"* meme has been **trending** for some time now
@@ -6,9 +6,11 @@ and I thought i'd adapt it into the format that was required.
 the origins of the original meme can be seen here;
 [know your meme](https://knowyourmeme.com/memes/no-maidens-maidenless)
 [![no maiden meme](/assets/no_maidens.png "no maiden meme")](https://imgur.com/SSMytT2)
+<img src="/assets/no_maidens.png" alt="no maiden meme" style="width:300px;"/>
+
 The meme is not usually found in the image left. black background, white text right format.
 
-**###Here is the code I used to make the meme###**
+###**Here is the code I used to make the meme**###
 ```
 library(magick)
 
